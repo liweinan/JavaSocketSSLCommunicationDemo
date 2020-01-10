@@ -9,7 +9,7 @@ import org.apache.http.impl.client.HttpClientBuilder;
 public class FooClient {
     public static void main(String[] args) throws Exception {
         CloseableHttpClient client = HttpClientBuilder.create().build();
-        HttpResponse response = client.execute(new HttpGet("http://as1.io"));
+        HttpResponse response = client.execute(new HttpGet("https://as1.io"));
         int statusCode = response.getStatusLine().getStatusCode();
         System.out.println("::: " + statusCode);
     }
