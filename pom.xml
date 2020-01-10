@@ -8,5 +8,17 @@
     <artifactId>JavaSocketSSLCommunicationDemo</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    
+    <properties>
+        <httpclient.ver>4.5.10</httpclient.ver>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+    </properties>
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>${httpclient.ver}</version>
+        </dependency>
+    </dependencies>
 </project>
