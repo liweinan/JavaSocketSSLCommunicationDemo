@@ -9,7 +9,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <httpclient.ver>4.5.10</httpclient.ver>
+        <httpclient.ver>4.5.13</httpclient.ver>
         <commons-beanutils.ver>1.9.4</commons-beanutils.ver>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
